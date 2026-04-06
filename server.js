@@ -14,7 +14,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://cloudstorage.mart4trade.com:3300',
+  origin: process.env.CLIENT_URL || 'https://cloudstorage.mart4trade.com',
   credentials: true,
 }));
 app.use(express.json());
